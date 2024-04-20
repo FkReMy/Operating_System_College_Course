@@ -105,13 +105,13 @@ int main()
         processes[i].processID = i + 1;
 
         printf(" \n");
+        
         printf("    Arraival Time : ");
         scanf("%d",  &processes[i].arrivalTime);
-        printf(" \n");
-
-        printf(" \n");
+        
         printf("    Brust Time : ");
         scanf("%d",  &processes[i].brustTime);
+        
         printf(" \n"); 
     }
 
