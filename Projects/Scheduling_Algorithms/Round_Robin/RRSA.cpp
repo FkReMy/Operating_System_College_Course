@@ -45,8 +45,6 @@ void calculateTimes(Process processes[], int noOfProcesses, int timeQuantum)
                 }
             }
         }  
-        if (done)
-            break; 
     }  
 }
 
